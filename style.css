@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*,
+*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #F7F7F7;
+    --dark:#2F2917;
+    --white: #FFFFFF;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Cinzel', serif;
+}
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark);
+    margin: 0 15%;
+}
+
+.header{
+    background-color: var(--bg-color);
+    padding: 1rem 0 2.5rem;
+}
+
+.header_pages{
+    padding: 1rem 0;
+}
+
+.navbar{
+    padding: 1rem 3rem;
+    background-color: var(--bg-color);
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 0 0 auto;
+
+}
+
+.nav_links{
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+}
+
+.nav_item{
+
+}
+
+.header_info{
+    display: flex;
+    /* background-color: lawngreen; */
+    align-items: center;
+    padding: 0 0 0 3.2rem;
+    /* justify-content: space-between; */
+}
+
+.header_image-box{
+    padding: 0 3.5rem 0 0;
+}
+
+.header_image{
+    object-fit: contain;
+    width: 100%;
+}
+
+.header_details{
+
+}
+
+.primary_heading{
+    font-size: 3rem;
+    margin: 0 0 1rem;
+}
+
+.btn_solid{
+    background-color: #964B00;
+    text-decoration: none;
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+/* styling for main links */
+.main_links-box{
+    /* background-color: rebeccapurple; */
+    margin: 3rem 0;
+}
+.main_links-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.main_list{
+
+}
+.main_link{
+    display: block;
+    text-decoration: none;
+    border: 2px solid #964B00;
+    padding: .5rem 1rem;
+    color: inherit;
+    font-size: .9rem;
+}
+
+/* styling for homepage images */
+.home_images{
+    /* background-color: lawngreen; */
+    display: grid;
+    grid-template-areas:
+      'tall imageone imagetwo'
+      'tall imagethree imagefour '
+      ;
+    grid-gap: 25px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+
+.home_images-1 { 
+    grid-area: tall; 
+    border: 3px solid #2F2917;
+}
+.home_images-2 { 
+    grid-area: imageone; 
+    border: 3px solid #2F2917;
+}
+.home_images-3 { 
+    grid-area: imagetwo;
+    border: 3px solid #2F2917; 
+}
+.home_images-4 { 
+    grid-area: imagethree; 
+    border: 3px solid #2F2917;
+}
+.home_images-5 { 
+    grid-area: imagefour; 
+    border: 3px solid #2F2917;
+}
+
+.home_image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* styling for homepage images end*/
+
+/* styling for footer */
+
+.footer{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 1.5rem;
+    margin: 3rem 0 2rem;
+}
+
+.footer_logo{
+    color: #964B00;
+    font-family: 'Cinzel', serif;
+    align-self: center;
+}
+
+.tertiary_heading{
+    font-size: 1.5rem;
+}
+
+.footer_list{
+    list-style: none;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer_item{
+    padding: .4rem 0 0;
+}
+
+/* .footer_icon{
+    height: 1rem;
+    width: 1rem;
+    padding: 0;
+    margin: 0;
+} */
+
+.footer_icon{
+    font-size: 1.8rem;
+    padding: 0 .7rem 0 0;
+    color: #964B00;
+}
+
+
+
+/* Hol pages styling */
+
+.secondary_heading{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0 2.5rem;
+}
+.holzarbeiten_top{
+    margin-bottom: 4rem;
+}
+.holzarbeiten_top,
+.holzarbeiten_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.left_image-top,
+.middle_image-top,
+.right_image-top,
+.left_image-bottom,
+.middle_image-bottom,
+.right_image-bottom{
+    /* background-color: lawngreen; */
+    width: 30%;
+}
+
+.left_image-top,
+.right_image-top,
+.left_image-bottom,
+.right_image-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.fig_image{
+    object-fit: contain;
+    width: 100%;
+}
+
+.fig_top,
+.fig_bottom{
+    margin-bottom: 4rem;
+}
+
+.caption{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+/* Karikaturen styling */
+/* .karikaturen-top > figure > image{
+    border: 2px solid #2F2917;
+} */
+.karikaturen-top,
+.karikaturen-middle{
+    margin-bottom: 3rem;
+}
+.karikaturen-middle{
+    /* background-color: lawngreen; */
+    display: grid;
+    grid-template-areas:
+      'kk kk kkkk kkkk kkkk'
+      'kkk kkk kkkk kkkk kkkk'
+      ;
+    grid-gap: 35px;
+    /* background-color: #2196F3; */
+}
+
+.karikaturen-one { 
+    grid-area: kk; 
+}
+.karikaturen-two { 
+    grid-area: kkk; 
+    margin-top: 1.2rem;
+}
+.karikaturen-three { 
+    grid-area: kkkk;
+    /* height: 100%; */
+    /* border: 3px solid #2F2917;  */
+}
+
+.karikaturen img{
+    border: 3px solid #2F2917;
+}
+/* .karik_image{
+    height: 66.2%;
+} */
+.karikaturen-bottom{
+    display: grid;
+    grid-template-areas:
+      'll lll lll lll'
+      ;
+    grid-gap: 35px;
+}
+
+.karikaturen-1 { 
+    grid-area: ll; 
+}
+.karikaturen-2 { 
+    grid-area: lll; 
+}
+
+/* kunststeinarbeiten-top styling */
+
+.kunststeinarbeiten-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.kun_image{
+    object-fit: contain;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.kun_image-box{
+    width: 46%;
+}
+
+/* .kun_spec{
+    height: 102%;
+} */
+
+.kun_spec2{
+    height: 52.8%;
+    margin:  0 0 0 5.3rem;
+}
+
+.kunststeinarbeiten-bottom{
+    display: flex;
+    /* background-color: lawngreen; */
+    margin-bottom: -29rem;
+}
+
+/* colored z */
+.colored-top{
+    display: grid;
+    grid-template-areas:
+      'cc cccc'
+      'ccc cccc'
+      ;
+    grid-gap: 50px;
+    margin-bottom: 3rem;
+    /* background-color: #2196F3; */
+}
+
+.colored-one { 
+    grid-area: cc; 
+}
+.colored-two { 
+    grid-area: ccc; 
+}
+.colored-three { 
+    grid-area: cccc;
+}
+
+.colored-bottom{
+    display: grid;
+    grid-template-areas:
+      'gggg gggg gggg gggg gggg gg'
+      'gggg gggg gggg  gggg gggg ggg'
+      ;
+    grid-gap: 50px;
+}
+
+.colored-four { 
+    grid-area: gg; 
+    margin-bottom: .8rem;
+}
+.colored-five { 
+    grid-area: ggg; 
+}
+.colored-six { 
+    grid-area: gggg;
+    /* height: 100%; */
+    /* border: 3px solid #2F2917;  */
+}
+
+
+/* unclolored css */
+.uncolored-top{
+    display: grid;
+    grid-template-areas:
+      'cc ccc ccc ccccc '
+      'cc cccc cccc ccccc '
+      ;
+    grid-gap: 35px;
+    margin-bottom: 3rem;
+    /* background-color: #2196F3; */
+}
+
+.uncolored-one { 
+    grid-area: cc; 
+}
+.uncolored-two { 
+    grid-area: ccc; 
+}
+.uncolored-three { 
+    grid-area: cccc;
+    margin: -1rem 0 0;
+}
+
+.uncolored-four{
+    grid-area: ccccc; 
+}
+
+.uncolored-bottom{
+    display: grid;
+    grid-template-areas:
+      'gggg gggg gggg gggg gggg gg'
+      'gggg gggg gggg  gggg gggg ggg'
+      ;
+    grid-gap: 50px;
+}
+
+.uncolored-five { 
+    grid-area: gg; 
+    margin-bottom: -.7rem;
+}
+.uncolored-six { 
+    grid-area: ggg; 
+}
+.uncolored-seven { 
+    grid-area: gggg;
+    /* height: 100%; */
+    /* border: 3px solid #2F2917;  */
+}
+
+.uncolored img {
+    border: 3px solid #2F2917; 
+}
+
+/* contact styling */
+
+.contact_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_image-box{
+    width: 70%;
+    padding: 0 4rem 0 0;
+}
+
+.form_image{
+    border: 2px solid #2F2917;
+    width: 100%;
+    object-fit: contain;
+}
+
+.form_box{
+    
+}
+.form_text{
+    font-weight: 600;
+}
+
+.form_label{
+
+}
+
+.form_input{
+    display: block;
+    width: 100%;
+    padding: .8rem;
+    border: 2px solid #D3D3D3;
+    margin: 1.9rem 0;
+}
+
+input::placeholder {
+    color: #7B7676;
+  }
+
+.form_radio-title{
+    display: inline-block;
+    padding: 0 1rem 0 0;
+}
+.radio_label{
+    padding: 0 1rem 0 0;
+}
+
+.form_message{
+    width: 100%;
+    border: 2px solid #D3D3D3;
+    padding: .8rem 0 8rem .8rem;
+    margin: 1.9rem 0;
+}
+
+#form_btn{
+    border: none;
+}
