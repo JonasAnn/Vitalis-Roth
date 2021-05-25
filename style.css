@@ -476,7 +476,7 @@ body{
 }
 
 .form_image-box{
-    /* width: 70%; */
+    width: 70%;
     padding: 0 4rem 0 0;
 }
 
@@ -544,11 +544,11 @@ input::placeholder {
     transform: rotate(-90deg) translate(-50%,50%);
     position: absolute;
     top: 0;
-    bottom: 48rem;
+    /* bottom: 48rem; */
     left: 5rem;
     margin: auto;
     font-weight: 700;
-    font-size: 7.3rem;
+    font-size: 8rem;
     font-family: 'Cinzel', serif;
 }
 
@@ -751,10 +751,10 @@ input::placeholder {
     .colored-top{
         display: grid;
         grid-template-areas:
-        'cc cccc'
-        'ccc cccc'
+        'cc cccc cccc cccc cccc'
+        'ccc cccc cccc cccc cccc'
         ;
-        grid-gap: 50px;
+        grid-gap: 30px;
         margin-bottom: 3rem;
         /* background-color: #2196F3; */
     }
@@ -764,6 +764,7 @@ input::placeholder {
     }
     .colored-two { 
         grid-area: ccc; 
+        margin-top: 0;
     }
     .colored-three { 
         grid-area: cccc;
