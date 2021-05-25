@@ -19,7 +19,7 @@ h3{
     font-family: 'Cinzel', serif;
 }
 html{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 body{
@@ -47,7 +47,7 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    width: 40%;
+    width: 45%;
     margin: 0 0 0 auto;
 
 }
@@ -297,8 +297,8 @@ body{
 }
 .karikaturen-two { 
     grid-area: kkk; 
-    /* margin-top: 1.2rem; */
-    margin-top: 2.9rem;
+    margin-top: -1rem;
+    /* margin-top: 2.9rem; */
 }
 .karikaturen-three { 
     grid-area: kkkk;
@@ -318,7 +318,7 @@ body{
       'll lll lll lll'
       ; */
       grid-template-areas:
-      'll lll lll lll lll'
+      'll lll lll lll lll lll'
       ;
     grid-gap: 35px;
 }
@@ -367,8 +367,8 @@ body{
 .colored-top{
     display: grid;
     grid-template-areas:
-      'cc cccc cccc'
-      'ccc cccc cccc'
+      'cc cccc cccc cccc'
+      'ccc cccc cccc cccc'
       ;
     grid-gap: 50px;
     margin-bottom: 3rem;
@@ -389,15 +389,15 @@ body{
 .colored-bottom{
     display: grid;
     grid-template-areas:
-      'gggg gggg gggg gggg gggg gg'
-      'gggg gggg gggg  gggg gggg ggg'
+      'gggg gggg gggg gggg gggg gggg gg'
+      'gggg gggg gggg  gggg gggg gggg ggg'
       ;
     grid-gap: 60px;
 }
 
 .colored-four { 
     grid-area: gg; 
-    margin-bottom: 3.7rem;
+    /* margin-bottom: 3.7rem; */
 }
 .colored-five { 
     grid-area: ggg; 
@@ -445,15 +445,15 @@ body{
 .uncolored-bottom{
     display: grid;
     grid-template-areas:
-      'gggg gggg gggg gggg gggg gg'
-      'gggg gggg gggg  gggg gggg ggg'
+      'gggg gggg gggg gggg gggg gggg gg'
+      'gggg gggg gggg gggg gggg gggg ggg'
       ;
     grid-gap: 50px;
 }
 
 .uncolored-five { 
     grid-area: gg; 
-    margin-bottom: -.7rem;
+    margin-bottom: -1.8rem;
 }
 .uncolored-six { 
     grid-area: ggg; 
@@ -476,7 +476,7 @@ body{
 }
 
 .form_image-box{
-    width: 70%;
+    /* width: 70%; */
     padding: 0 4rem 0 0;
 }
 
