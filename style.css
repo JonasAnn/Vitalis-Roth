@@ -367,8 +367,8 @@ body{
 .colored-top{
     display: grid;
     grid-template-areas:
-      'cc cccc cccc cccc'
-      'ccc cccc cccc cccc'
+      'cc cccc cccc'
+      'ccc cccc cccc'
       ;
     grid-gap: 50px;
     margin-bottom: 3rem;
@@ -380,7 +380,7 @@ body{
 }
 .colored-two { 
     grid-area: ccc; 
-    margin-top: 6.8rem;
+    margin-top: 3rem;
 }
 .colored-three { 
     grid-area: cccc;
@@ -401,6 +401,7 @@ body{
 }
 .colored-five { 
     grid-area: ggg; 
+    margin-top: 6.2rem;
 }
 .colored-six { 
     grid-area: gggg;
@@ -466,6 +467,7 @@ body{
 
 .uncolored img {
     border: 3px solid #2F2917; 
+    margin-top: 6rem;
 }
 
 /* contact styling */
